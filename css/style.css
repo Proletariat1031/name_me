@@ -64,7 +64,10 @@
                     }
                     
                     .about .text {
+                        display: flex;
                         flex: 1;
+                        justify-content: center;
+                        flex-direction: column;
                         color: #ffffff;
                         padding: 20px;
                     }
@@ -92,5 +95,53 @@
                     }
                     
                     .about .photo img {
+                        width: 100%;
+                    }
+                    
+                    .spacer {
+                        height: 2px;
+                        background: #9c0000;
+                        width: 100%;
+                        margin: 5px;
+                    }
+                    
+                    .hours {
+                        display: flex;
+                        width: 100%;
+                        padding: 25px;
+                    }
+                    
+                    .hours .text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        color: #ffffff;
+                        margin-left: 40px;
+                        flex: 1;
+                    }
+                    
+                    .hours .text h1 {
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                    
+                    .hours .text h2 {
+                        font-size: 2rem;
+                        font-weight: 500;
+                        padding-top: 10px;
+                    }
+                    
+                    .hours .text p {
+                        font-size: 1.50rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        padding-top: 20px;
+                    }
+                    
+                    .hours .photo {
+                        flex: 1;
+                    }
+                    
+                    .hours .photo img {
                         width: 100%;
                     }
