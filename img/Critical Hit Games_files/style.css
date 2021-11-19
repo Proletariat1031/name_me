@@ -179,3 +179,8 @@
                         font-weight: 500;
                         padding-top: 20px;
                     }
+                    
+                    iframe {
+                        display: flex;
+                        flex: 1;
+                    }
