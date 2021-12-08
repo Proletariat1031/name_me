@@ -179,3 +179,97 @@
                         font-weight: 500;
                         padding-top: 20px;
                     }
+                    
+                    .rooms {
+                        display: flex;
+                        width: 100%;
+                        padding: 25px;
+                    }
+                    
+                    .rooms .text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        color: #ffffff;
+                        margin-left: 40px;
+                        flex: 1;
+                    }
+                    
+                    .rooms .text h1 {
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                    
+                    .rooms .text h2 {
+                        font-size: 2rem;
+                        font-weight: 500;
+                        padding-top: 10px;
+                    }
+                    
+                    .rooms .text p {
+                        font-size: 1.50rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        padding-top: 20px;
+                    }
+                    
+                    .rooms ul {
+                        font-size: 1.25rem;
+                        line-height: 1.55;
+                        font-weight: 500;
+                        padding-top: 20px;
+                    }
+                    
+                    .rooms .photo {
+                        flex: 1;
+                    }
+                    
+                    .rooms .photo img {
+                        width: 100%;
+                    }
+                    
+                    .cards {
+                        display: flex;
+                        justify-content: space-evenly;
+                        flex-direction: row;
+                        width: 100%;
+                        padding: 25px;
+                    }
+                    
+                    .cards h1 {
+                        color: #ffffff;
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                    
+                    .allday {
+                        color: #ffffff;
+                        font-size: 2rem;
+                        font-weight: 700;
+                        padding: 20px 0;
+                    }
+                    
+                    .halfday {
+                        color: #ffffff;
+                        font-size: 2rem;
+                        font-weight: 700;
+                        padding: 20px 0;
+                    }
+                    
+                    .card_week {
+                        padding: 30px;
+                    }
+                    
+                    .card_sat {
+                        padding: 30px;
+                    }
+                    
+                    .card_sun {
+                        padding: 30px;
+                    }
+                    
+                    .price {
+                        color: #ffffff;
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
