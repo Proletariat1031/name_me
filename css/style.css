@@ -339,3 +339,64 @@
                         padding: 5px;
                         background-color: #9c0000;
                     }
+                    
+                    .contact {
+                        display: flex;
+                        width: 100%;
+                        padding: 25px;
+                    }
+                    
+                    .contact .text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        color: #ffffff;
+                        margin-left: 40px;
+                        flex: 1;
+                    }
+                    
+                    .contact .text h1 {
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                    
+                    .contact .text p {
+                        font-size: 1.50rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        padding-top: 20px;
+                    }
+                    
+                    .card_con {
+                        margin: 20px 15px 20px 0;
+                        background: #9c0000;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        border: 3px solid #ffffff;
+                        border-radius: 15px;
+                    }
+                    
+                    #email {
+                        font-size: 2rem;
+                        color: #ffffff;
+                        padding-top: 30px;
+                    }
+                    
+                    .contact .photo {
+                        flex: 1;
+                    }
+                    
+                    .contact .photo img {
+                        width: 100%;
+                    }
+                    
+                    .card_phone {
+                        margin: 20px 15px 20px 0;
+                        background: #9c0000;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        border: 3px solid #ffffff;
+                        border-radius: 15px;
+                    }
