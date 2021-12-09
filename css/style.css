@@ -228,6 +228,47 @@
                         width: 100%;
                     }
                     
+                    .booking {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        /* background: #9c0000; */
+                        margin: 10px 0;
+                    }
+                    
+                    .booking a {
+                        text-decoration: none;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        font-size: 1.5rem;
+                    }
+                    
+                    #calendar {
+                        flex: 1;
+                        border: 3px solid #ffffff;
+                        text-align: center;
+                        padding: 15px 0;
+                        background: #9c0000;
+                        margin: 10px;
+                    }
+                    
+                    #calendar :hover {
+                        font-weight: 900;
+                    }
+                    
+                    #book {
+                        flex: 1;
+                        border: 3px solid #ffffff;
+                        text-align: center;
+                        padding: 15px 0;
+                        background: #9c0000;
+                        margin: 10px;
+                    }
+                    
+                    #book :hover {
+                        font-weight: 900;
+                    }
+                    
                     .cards {
                         display: flex;
                         justify-content: space-evenly;
